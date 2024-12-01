@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Amaral - Cadista</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="bg-dark text-white">
+        <div class="container">
+            <div class="header-container">
+                <img src="imagens/img1.png" alt="Logo" class="logo">
+                <h1>Daniel Amaral</h1>
+                <nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#topo">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#formacao">Formação Acadêmica</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#atuacao">Atuação Profissional</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hobies">Hobbies<span class="badge text-bg-secondary"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header
+
+    <section class="banner">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+              <p>A educação é o nosso passaporte para o futuro, pois o amanhã pertence às pessoas que se preparam hoje.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+               <cite title="Source Title">Malcolm X</cite>
+            </figcaption>
+          </figure>
+    </section>
+
+    <section id="topo" class="intro-section">
+        <div class="container">
+            <h3 class="section-title">Sobre Mim</h3>
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Meu nome é Daniel Amaral sou um profissional em marmoraria e marcenaria, porém um entusiasta da tecnologia, aqui você vai conhecer meus interesses e meus hobies.</div>
+        </div>
+    </section>
+    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLabel">Opa, você por aqui?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          Opa, que bom te ter por aqui! viu que legal essa notificação? Fiz com Bootstrap rs. Bem-Vindo!
+        </div>
+      </div>
+
+    <section id="formacao" class="education-section bg-light py-5">
+        <div class="container">
+            <h3 class="section-title">Formação Acadêmica</h3>
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Sou formado em Autocad pela Sarmento em Sobradinho, Administração pelo Senac e Gestão em Recursos Humanos também pelo Senac.</div>
+        </div>
+    </section>
+
+    <section id="atuacao" class="atuacao-section bg-white py-5">
+        <div class="container">
+            <h3 class="section-title">Atuação Profissional</h3>
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Minha atuação abrange desde projetos técnicos em Autocad até a gestão de equipes e processos administrativos. Tenho experiência em empresas como NoBreak e Casabella, aplicando meus conhecimentos em diversas áreas.</div>
+        </div>
+        </div>
+    </section>
+
+    <section id="hobies" class="gallery-section bg-light py-5">
+        <div class="container">
+            <h3 class="section-title">Meus Hobbies</h3>
+            <p>Além do trabalho, gosto de me divertir jogando Euro Truck Simulator 2 com meus amigos. Veja algumas imagens do jogo!</p>
+            <div class="row">
+                <div class="col-md-4 gallery-item">
+                    <img src="imagens/euro1.jpg" alt="Rodando na Europa" class="img-fluid">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="imagens/euro2.jpg" alt="Muito divertido!" class="img-fluid">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="imagens/euro3.jpg" alt="Cuidado com a neve!" class="img-fluid">
+                </div>
+            </div>
+
+            <h3 class="section-title mt-5">Outros Trabalhos e Conhecimentos</h3>
+            <div class="row">
+                <div class="col-md-4 gallery-item">
+                    <img src="imagens/auto1.jpg" alt="Autocad" class="img-fluid">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="imagens/auto2.jpg" alt="RH" class="img-fluid">
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <img src="imagens/auto3.jpg" alt="Tecnologia" class="img-fluid">
+                </div>
+            </div>
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Essas imagens representam meus conhecimentos e meus trabalhos com Autocad, Marcenaria e Tecnologia.</div>
+        </div>
+    </section>
+
+    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 25%">25%</div>
+      </div>
+
+    <section id="contato" class="contact-section bg-dark text-white py-5">
+        <div class="container">
+            <h3 class="section-title">Entre em Contato</h3>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Digite aqui seu email" required>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="planta-baixa">
+                    <label class="form-check-label" for="planta-baixa">Planta Baixa</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="setor" value="compras">
+                    <label class="form-check-label">Setor de Compras</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Daniel Amaral - Cadista. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
